@@ -12,7 +12,7 @@ async function main() {
     );
 
     setOutput("failed", hasCircularity);
-    if (getInput("fail") !== "false") {
+    if (getInput("fail") !== "false" && hasCircularity) {
       setFailed("Circular imports detected!");
     }
   } catch (error) {
