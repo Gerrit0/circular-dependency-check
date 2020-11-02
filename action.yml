@@ -15,7 +15,7 @@ outputs:
   failed:
     description: "Set if circular dependencies are discovered"
 runs:
-  using: "node14"
+  using: "node12"
   main: "action.js"
 branding:
   icon: "rotate-ccw"
