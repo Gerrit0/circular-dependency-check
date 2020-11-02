@@ -1,0 +1,22 @@
+name: "Circular Dependency Check"
+description: "Check for circular dependencies using Madge"
+inputs:
+  entry:
+    description: "The entry point to be passed to Madge"
+    required: true
+  extensions:
+    description: "Extensions options to be passed to Madge"
+    required: false
+    default: "js"
+  fail:
+    description: "Fail the build if circular dependencies are detected"
+    default: "true"
+outputs:
+  failed:
+    description: "Set if circular dependencies are discovered"
+runs:
+  using: "node14"
+  main: "action.js"
+branding:
+  icon: "rotate-ccw"
+  color: "red"

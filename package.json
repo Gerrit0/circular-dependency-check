@@ -1,0 +1,16 @@
+{
+  "name": "circular-dependency-check-action",
+  "version": "1.0.0",
+  "main": "action.js",
+  "license": "MIT",
+  "devDependencies": {
+    "prettier": "^2.1.2"
+  },
+  "dependencies": {
+    "@actions/core": "^1.2.6",
+    "madge": "^3.11.0"
+  },
+  "scripts": {
+    "lint": "prettier --check ."
+  }
+}
