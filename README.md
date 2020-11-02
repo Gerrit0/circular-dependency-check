@@ -19,7 +19,7 @@ This action checks for circular dependencies using [Madge](https://www.npmjs.com
 ## Example usage
 
 ```yaml
-uses: gerrit0/circular-dependency-check@v1
+uses: gerrit0/circular-dependency-check@v1.1
 with:
   entry: >
     src/index.js
