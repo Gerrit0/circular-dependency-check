@@ -1,13 +1,14 @@
 {
   "name": "circular-dependency-check-action",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "main": "action.js",
   "license": "MIT",
   "dependencies": {
-    "@actions/core": "^1.2.6",
-    "madge": "^3.11.0"
+    "@actions/core": "^1.10.0",
+    "madge": "^6.0.0"
   },
   "scripts": {
     "lint": "npx prettier --check ."
-  }
+  },
+  "packageManager": "yarn@3.4.1"
 }

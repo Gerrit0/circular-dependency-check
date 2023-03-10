@@ -3,11 +3,11 @@ const madge = require("madge");
 
 /**
  * @param {string[]} entry
- * @param {string[]} extensions
+ * @param {string[]} fileExtensions
  */
-exports.madge = async function (entry, extensions) {
+exports.madge = async function (entry, fileExtensions) {
   const analysis = await madge(entry, {
-    extensions,
+    fileExtensions,
   });
 
   const circular = analysis.circular();

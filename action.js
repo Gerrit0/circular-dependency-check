@@ -1,4 +1,5 @@
 // @ts-check
+require("./.pnp.cjs").setup();
 const { getInput, setOutput, setFailed } = require("@actions/core");
 const { madge } = require("./madge.js");
 
