@@ -1,7 +1,4 @@
-.yarn/*
-!.yarn/cache
-!.yarn/patches
-!.yarn/plugins
-!.yarn/releases
-!.yarn/sdks
-!.yarn/versions
+node_modules/
+
+# Must be committed for GitHub publishing, unfortunately.
+!dist/action.bundle.js

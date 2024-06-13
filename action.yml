@@ -16,7 +16,7 @@ outputs:
     description: "Set if circular dependencies are discovered"
 runs:
   using: "node20"
-  main: "action.js"
+  main: "dist/action.bundle.js"
 branding:
   icon: "rotate-ccw"
   color: "red"
