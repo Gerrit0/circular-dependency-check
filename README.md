@@ -33,7 +33,7 @@ Examples:
 ## Example usage
 
 ```yaml
-uses: gerrit0/circular-dependency-check@v2.0.2
+uses: gerrit0/circular-dependency-check@v2.0.3
 with:
   entry: >
     src/index.js

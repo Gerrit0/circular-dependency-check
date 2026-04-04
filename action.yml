@@ -15,8 +15,8 @@ outputs:
   failed:
     description: "Set if circular dependencies are discovered"
 runs:
-  using: "node20"
-  main: "dist/action.bundle.js"
+  using: "node24"
+  main: "dist/action.bundle.cjs"
 branding:
   icon: "rotate-ccw"
   color: "red"

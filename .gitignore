@@ -1,4 +1,4 @@
 node_modules/
 
 # Must be committed for GitHub publishing, unfortunately.
-!dist/action.bundle.js
+!dist/action.bundle.cjs
